@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+header{
+	background-color : #8fbbbc ;
+	box-shadow : 1px 1px 5px 5px #5F9EA0;
+	padding-bottom : 0px ;
+}
+
+#headerdiv{
+	margin-top : 2px ;
+	
+}
+.header-title{
+	font : 28px Georgia, serif ;
+	text-shadow : 1px 1px 2px #dfebec ;
+}
+.header-p{
+	
+	font : 20px Georgia, serif ;
+	text-align : center ;
+}
+.logged{
+	text-align : center ;
+}
+body{
+	height : 100% ;
+}
+
+div{
+	padding : 5px;
+}
+div.mps { 
+	position : relative ;
+	height : auto !important ;
+	min-height: 500px ;
+	margin : 20px;
+}	
+
+/*@media all and (min-width: 992px) {*/
+.nav .nav-item .dropdown-menu{ display: none; width:100%; text-align:center; }
+.navbar .nav-item:hover .nav-link{ background-color: white ;  }
+.nav .nav-item:hover .dropdown-menu{ display: block; background-color: #8fbbbc ;  }
+.nav .nav-item .dropdown-menu{ margin-top:0; }		
+.nav .nav-item:hover .dropdown-menu .dropdown-item:hover{ display: block; background-color: #5F9EA0 ; text-shadow : 1px 1px 2px #dfebec ; }
+/*}*/			
+
+.mymenu{
+	box-shadow : 0px -4px 2px #5F9EA0 ;
+	position : relative ;
+	bottom : 1 ;
+	margin-bottom : 0px ;
+	
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  .col-4{
+	  width: 100% !important;
+  }[class*="col-"] {
+  width: 100%;
+}
+}
+a{
+	color : black ;
+}
+a:hover{
+	color : black ;
+	text-decoration : none ;
+	text-shadow : 1px 1px 2px #dfebec ;
+	font-weight : bold ;
+}
+a.nav-link:hover{
+	background-color : #5F9EA0 ;
+	color : black ;
+	
+}
+
+.mybutton{
+	background-color : #8fbbbc ;
+	border-radius : 4px ;
+	border-color : #5F9EA0 ;
+	display : inline-block ;
+	margin : 12px 12px ;
+	padding : 8px 12px ;
+	color : #333 ; 
+	text-shadow : 1px 1px 2px #dfebec ;
+}
+.mybutton:hover{
+	background-color : #5F9EA0 ;
+}
+img.mylogo{
+	display :block ;
+	width : 60px ;
+	height : 60px ;
+	margin-left : auto ;
+	margin-right : auto ;
+}
+#cookieDiv{
+    position : absolute ;
+    top : 0 ;
+    width : 75% ;
+    height : fit-content ;
+    width : max-content ; 
+    background-color: #dfebec ;
+    display : block ;
+    z-index: 2 ;
+    opacity: 0.8 ;
+    border-radius: 4px ;
+    padding-left: 25px ;
+}
+
+footer{
+	position: relative;
+	bottom  : 0 ;
+	background-color : #8fbbbc ;
+}

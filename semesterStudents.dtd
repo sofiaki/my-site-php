@@ -1,0 +1,11 @@
+<!ELEMENT semesterStudents (student*, top2*)>
+<!ELEMENT student (name, surname, courses, average)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT courses (#PCDATA)>
+<!ELEMENT average (#PCDATA)>
+<!ATTLIST student id CDATA #REQUIRED>
+<!ELEMENT top2 (nameTop2, surnameTop2)>
+<!ELEMENT nameTop2 (#PCDATA)>
+<!ELEMENT surnameTop2 (#PCDATA)>
+<!ATTLIST top2 idT CDATA #REQUIRED>

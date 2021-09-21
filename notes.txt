@@ -1,0 +1,6 @@
+includeheader.php ok
+connectDB ok
+foititisIndex ok
+κοινος κωδικας στα αρχεια students php, administration.php, professor.php για την προβολη της ιδιας καρτελας μετα απο ανακατευθυνση
+2 φορες το ιδιο script στο αρχειο administration.php γραμμή 43 και 105
+τα validatepassword() και validateemail() να καλουνται με jquery
